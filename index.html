@@ -104,7 +104,6 @@
     }
 }
 </style>
-
         <style>
 #masteryHome {
 	border-top: solid 1px #0a0a0a;
@@ -143,12 +142,11 @@
 }
 </style>
         <meta charset="UTF-8">
-	  meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
 <title>Personal & Professional Growth, Training & Development - FitIn Worldwide</title>
 
 <meta name="description" content="FitIn Worldwide is a personal and professional growth, training and development company focusing on people achieving success, fulfillment and greatness." />
 <meta name="keywords" content="FitIn, FitIn forum, FitIn  course, FitIn advanced programs, el foro, FitIn seminar, personal growth, productivity, personal development, productivity training, relationship seminar, communication course, Foucault, EvaIllouz, critique, Marx, manifiesto acceleracionista, Tiquun, romantic webs, sel-help, secta, cult, capitalism" />
-
 
 
                 <style>
@@ -170,7 +168,14 @@
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.35);
 }
 </style>
-       
+        <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+
+<!-- <link href="/layouts/6.0/Assets/Css/min/styles.css" rel="stylesheet" type="text/css"> -->
+
+<link href="style/1.css" rel="stylesheet" type="text/css">
+<link href="style/2.css" rel="stylesheet" type="text/css">
+<link href="style/3.css" rel="stylesheet" type="text/css">
 <style>
   .syllabus h3 span:after { content: ''; }
   .programList .name table tr td {
@@ -290,7 +295,18 @@ z-index: 300;
 min-height: 100px;
 }
 </style>
-        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="//code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script> 
+<script async="async" src="//cdn.jsdelivr.net/jquery.pajinate/0.4/jquery.pajinate.min.js"></script>
+<!--<script async="async" src="/layouts/6.0/Assets/js/global.js"></script>
+<script async="async" src="/layouts/6.0/Assets/js/scripts.js"></script>
+<script async="async" src="/layouts/6.0/Assets/js/min/custom.js"></script>
+-->
+<script async="async" src="scripts/AdapterUtils.js"></script>
+<script async="async" src="scripts/TreeViewAdapter.js"></script>
+
+<script type="application/javascript">
+        window.disableHomeVideoOverwrite = true;
 </script>
         <style>
 .modal-body .ftContent {
@@ -316,7 +332,13 @@ min-height: 100px;
   z-index: 11000 !important;
 }
 </style>
-	
+	  <script type="application/javascript">
+			$(document).ready(function(){
+				$('#modalContentDiv').click(function(){
+					$(this).dblclick();
+				});
+			});
+		</script>
 
 <link href="style/googlefont.css" rel="stylesheet" type="text/css">
 	  
@@ -324,7 +346,8 @@ min-height: 100px;
 
 	
 
-
+<script type="text/javascript" src="jquary.js"></script>
+	  <script type="text/javascript" src="bootstramp.js"></script>
 	  <style>
 
 		
@@ -792,13 +815,20 @@ padding-top: 100px;
 #modal { padding-top: 0px;}
 }
             </style>
+<link href="https://drive.google.com/uc?export=download&id=0B1Qx1XH6Cc5-bm1QZl9nay00MFE" rel="stylesheet" type="text/css">
 
                 
         <script src="scripts/1.js"></script>
         <script src="scripts/2.js"></script>
         <script src="scripts/3.js"></script>
 
-       
+        <script src="jquery.signalR-2.2.0.min.js" type="text/javascript"></script>
+        <script async="async" src="hubs" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="bannerAd">
+<a href="http://www.speakingbeing.com"><img src="imagenes/speaking-being-banner.jpg" id="dskAd"></a>
+</div>
 <style>
 @media (min-width: 100px) {
 .margin-fifty {
@@ -806,7 +836,16 @@ padding-top: 100px;
 }
 }
 </style>
-
+<script type="text/javascript">dataLayer = [];</script>  
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N3B88X"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N3B88X');</script>
+<!-- End Google Tag Manager -->
 
 <script src="scripts/rapt-US.js"></script> 
        <div id="modal">
@@ -1316,7 +1355,22 @@ FORUM</a></div>
             }
         }
     </style>
-    
+    <map id="videomap-full" name="videomap-full">
+        <area shape="rect" coords="0,0,211,32" href="javascript:openVideoSegment('results')">
+        <area shape="rect" coords="0,44,211,76" href="javascript:openVideoSegment('what is it')">
+        <area shape="rect" coords="0,88,211,120" href="javascript:openVideoSegment('what people say')">
+        <area shape="rect" coords="0,132,211,164" href="javascript:openVideoSegment('who participates')">
+        <area shape="rect" coords="0,176,211,208" href="javascript:openVideoSegment('about Landmark')">
+        <area shape="rect" coords="0,220,211,252" href="javascript:openVideoSegment('Our Leaders')">
+    </map>
+    <map id="videomap-mobile" name="videomap-mobile">
+        <area shape="rect" coords="0,0,107,17" href="javascript:openVideoSegment('results')">
+        <area shape="rect" coords="0,22,107,39" href="javascript:openVideoSegment('what is it')">
+        <area shape="rect" coords="0,44,107,62" href="javascript:openVideoSegment('what people say')">
+        <area shape="rect" coords="0,67,107,85" href="javascript:openVideoSegment('who participates')">
+        <area shape="rect" coords="0,90,107,107" href="javascript:openVideoSegment('about Landmark')">
+        <area shape="rect" coords="0,113,107,130" href="javascript:openVideoSegment('Our Leaders')">
+    </map>
 <a name="introduction"></a>
     <div id="videoBoth"><img src="imagenes/hombre.png"></div>
     <div id="videoF"><img src="//www.landmarkworldwide.com/media/images/ab/mobile_man.png"></div>
@@ -1485,15 +1539,14 @@ A fundamental principle of Fit on’s work is that people and the communities, o
     </div>
     <!-- Carousel -->
 </div>
-			<div id="htmlbody_0_pagebody_15_divContainer" class="CTAbar"></div>
+        <div id="htmlbody_0_pagebody_15_divContainer" class="CTAbar">
     
 			
 			<!-- /////aki/////-->
 			
 			
 
-
-   <div class="container">
+<div class="container">
     <div class="col-lg-1 col-md-1 hide-for-mobile"></div>
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <p><span style="font-size: 24px;">Fit on Worldwide</span></p>
@@ -1868,4 +1921,3 @@ Sys.Application.add_init(function() {
 		</script>
     </body>
 </html>
-
